@@ -1,0 +1,4 @@
+#the best default permission for a script is 744
+#you can get it by running 'chmod 744 filename.sh'
+#1 for execute, 2 for write, 4 for read
+#744 - the first number is for file's owner, the second for owner's(where he belongs), the third for any other user
