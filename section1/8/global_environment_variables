@@ -1,0 +1,3 @@
+#run 'echo $PATH' to see which evironmental variables are present now
+#edit your '.profile' file in ur home directory and add new path, example: export PATH="$PATH:/home/ad/bash-udemy-course/section1/8"
+#execute a script
