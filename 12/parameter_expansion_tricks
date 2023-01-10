@@ -1,0 +1,34 @@
+root@awisniewski-web01.new2:~# name=ZiYaD
+root@awisniewski-web01.new2:~# echo $name
+ZiYaD
+root@awisniewski-web01.new2:~# echo ${name}
+ZiYaD
+root@awisniewski-web01.new2:~# echo ${name,}
+ziYaD
+root@awisniewski-web01.new2:~# echo ${name,,}
+ziyad
+
+root@awisniewski-web01.new2:~# echo $USER
+root
+root@awisniewski-web01.new2:~# echo ${USER^}
+Root
+root@awisniewski-web01.new2:~# echo ${USER^^}
+ROOT
+root@awisniewski-web01.new2:~# echo ${#name}
+5
+
+
+#dividing one string "${parameter:offset:lenght}"
+root@awisniewski-web01.new2:~# numbers=0123456789
+root@awisniewski-web01.new2:~# echo ${numbers:0:7}
+0123456
+root@awisniewski-web01.new2:~# echo ${numbers:0:5}
+01234
+root@awisniewski-web01.new2:~# echo ${numbers:3:5}
+34567
+root@awisniewski-web01.new2:~# echo ${numbers:3}
+3456789
+root@awisniewski-web01.new2:~# echo ${numbers: -3:2}
+78
+root@awisniewski-web01.new2:~# echo ${numbers: -3}
+789
